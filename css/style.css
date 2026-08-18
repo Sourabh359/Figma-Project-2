@@ -506,13 +506,14 @@ nav ul {
     font-size: 28px;
     font-weight: 600;
     color: #2D3748;
+    padding: 8px;
 }
 
 .canada-text p {
     color: #4A5568;
     font-size: 14px;
     line-height: 1.62;
-    padding: 2rem 0 4rem;
+    padding: 2rem 8px 4rem;
 }
 
 .canada-text a {
@@ -524,6 +525,7 @@ nav ul {
     -webkit-text-fill-color: transparent;
     display: inline-flex;
     justify-content: flex-end;
+    margin-right:10px ;
 }
 
 .wrap-8 .software {
@@ -847,6 +849,11 @@ footer .social span {
     nav ul {
         gap: 30px;
     }
+
+        .wrap-7 img{
+        margin-top: 70px;
+    }
+
 }
 
 @media screen and (max-width:980px) {
@@ -857,6 +864,7 @@ footer .social span {
     .wrap-6 .customer-text {
         padding: 0;
     }
+
     .wrap-11{
         padding-top: 0;
     }
@@ -865,7 +873,7 @@ footer .social span {
     }
     .wrap-13 .flex{
         width: 100%;
-        height: auto;
+        height: 220px;
         gap: 250px;
     }
 }
@@ -886,6 +894,17 @@ footer .social span {
         min-width: 0;
     }
 
+    .wrap-7 img{
+        margin-left:60px ;
+    }
+
+    .wrap-8 .team-img{
+        order: 1;
+    }
+
+    .wrap-8 .team-text{
+        order: 2;
+    }
 
     .wrap-10 :nth-child(2).flex .lang {
         gap: 0;
@@ -909,12 +928,20 @@ footer .social span {
 
     .wrap-13 .flex{
         width: 100%;
-        height: auto;
+        height: 200px;
         gap: 40px;
     }
 }
 
 @media screen and (max-width:460px) {
+
+    .wrap-1{
+        padding: 17px 0;
+    }
+
+    .wrap-1 .container-nav{
+        padding: 0 10px;
+    }
 
     .banner-text .lg-1 {
         font-size: 38px;
@@ -936,6 +963,10 @@ footer .social span {
 
     .customer-text .para {
         margin: 20px;
+    }
+
+    .wrap-7 img{
+        margin:0 ;
     }
 
     .col-m-12 {
